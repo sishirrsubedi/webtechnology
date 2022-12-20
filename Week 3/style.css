@@ -1,0 +1,65 @@
+#about{
+    color: black;
+    background-color: chartreuse;
+    font-weight: bolder;
+    font-style: italic;
+    text-align:center ;
+}
+nav{
+    color: black;
+    background-color:cadetblue;
+    font-weight: bolder;
+    font-style: italic;
+    text-align:left ;
+}
+img {
+   text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(186, 102, 0, 0.5);
+  }
+  body{
+    color:black;
+    background-color:beige;
+    font-weight:100;
+    font-size: medium;
+    font-style: normal;
+    text-align:center ;
+  }
+  div.container{
+    text-align:center;
+  }
+  ul.myUL{
+    display: inline-block;
+    text-align: left;
+  }
+  h2{
+    color: crimson;
+    background-color: aqua;
+    
+  }
+  #hobby{
+    color:black;
+    background-color: greenyellow;
+  }
+  table, th, td {    
+    border: 1px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    text-align: center;  
+    font-size: 20px;  
+    }    
+  tr:hover {background-color: coral;}
+  footer{
+    background-color: chocolate
+    padding: 10px 20px;
+
+
+  }

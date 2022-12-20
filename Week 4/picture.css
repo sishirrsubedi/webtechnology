@@ -1,0 +1,16 @@
+img{
+    height:470px;
+    width: 45%;
+}
+
+p{
+    background-color: black;color: aliceblue;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#image1{
+    border-radius: 50%;
+    text-align:center;
+    width: 450px;
+    height: 500px;
+    background-size: cover;
+}
+
