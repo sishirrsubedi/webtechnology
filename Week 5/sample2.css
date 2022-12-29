@@ -1,0 +1,30 @@
+.title{
+    margin-top: 20px;
+margin-right: 450px;
+margin-bottom:  20px;
+margin-left: 90px;
+font-size: 20px;
+}
+
+.container{
+    margin-top: -170px;
+margin-right: 100px;
+margin-bottom:  20px;
+margin-left: 510px;
+font-size: 15px;
+}
+.image{
+    margin-top: 100px;
+    margin-right: 150px;
+    
+    margin-left: 140px;   
+   
+}
+img{
+    width: 580px;
+    
+}
+body{
+    background-color:rgb(255, 176, 97);
+    color:rgb(255, 230, 204);
+}
