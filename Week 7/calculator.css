@@ -1,0 +1,19 @@
+h1{
+    justify-content:center;
+}
+.box{
+    margin: 50px 250px 80px 250px;
+    border-radius: 5px;
+    border: 2px solid ;
+    border-color: grey;
+    text-align: right;
+}
+.heading{
+    margin-left: 250px;
+}
+.grid-container{
+    display: grid;
+}
+.grid-item-1{
+    grid-template-columns: span 3;
+}

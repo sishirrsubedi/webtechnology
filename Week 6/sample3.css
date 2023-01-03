@@ -1,15 +1,14 @@
 .head{
 color:white;
 text-align: center;
-background-color:cadetblue;
+background-color:gray;
 margin-left: 200px;
 margin-right: 200px;
 border-radius: 30px;
 
 }
 .head :hover{
-    background-color:chocolate;
-    color: black;
+    color:black;
     border-radius: 30px;
 
 }
