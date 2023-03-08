@@ -1,19 +1,83 @@
 h1{
     justify-content:center;
+    color: white;
+    font-weight: bolder;
+    margin-left: 60px;
+    margin-top: 30px;
 }
-.box{
-    margin: 50px 250px 80px 250px;
-    border-radius: 5px;
-    border: 2px solid ;
-    border-color: grey;
-    text-align: right;
-}
+
 .heading{
     margin-left: 250px;
+    margin-right: 250px;
 }
 .grid-container{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 80px;
     display: grid;
+    padding:2px;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+    
 }
-.grid-item-1{
-    grid-template-columns: span 3;
+.grid-item-1,.grid-item-15{
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color:blue;
+    color: white;
+    border-radius: 7px;
+
 }
+
+.grid-item-2,.grid-item-3,.grid-item-4,.grid-item-5,.grid-item-6,.grid-item-7,.grid-item-8,.grid-item-9,.grid-item-10,.grid-item-11,.grid-item-12,.grid-item-13,.grid-item-14{
+    background-color:#F3F3F3;
+    border-radius: 7px;
+}
+
+.grid-item-16{
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+}
+.grid-item-15{
+    background-color:#F3F3F3;
+    border-radius: 7px;
+    color: black;
+    
+
+}
+body{
+    background-image: linear-gradient(#20002c, #cbb4d4);
+}
+
+.box{
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    /* border-radius: 0; */
+    background-image: linear-gradient(#414141, #000000);
+    
+    margin: 50px 250px 80px 250px;
+    border-radius: 5px;
+    color: white;
+    border-color: grey;
+        text-align: right;
+        font-size: 35px;
+    }
+    
+    .boxx{
+        margin-top: -80px;
+        margin-left: 250px;
+        width: 250px;
+        height: 170px;
+        border: 2px solid black;
+        border-radius: 5px;
+        
+        border-color: grey;
+        background-image: linear-gradient(#2C3E50,#000000);
+
+        }

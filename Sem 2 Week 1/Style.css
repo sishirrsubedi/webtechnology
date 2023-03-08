@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url('coffee-bg.jpg');
+    /* background-color: aquamarine; */
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.navbar{
+  /* background-image: linear-gradient(rgba(221,76,23,255), rgba(112,38,13,255)); */
+  border-radius: 4px;
+  display: flex;
+  justify-content: center; 
+  flex-direction: row-reverse;
+}
+
+
+
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+  font-size: 30px;
+}
+.navbar li a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+.navbar li a:hover{
+  color:burlywood;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<body part>>>>>>>>>>>>>>>>> */
+.Tag{
+    margin: 0px 20px 400px 900px;
+    padding-top: 90px;
+    color: bisque;
+}
+.Tag_H1 H1{
+    font-size: 80px;
+}
+.Tag_H1{
+  margin: 0px 40px;
+}
+  
+
+.Tag_H2{
+  padding: 50px;
+
+}
+ H2{
+    font-size: 30px;
+    color: white;
+}
+
